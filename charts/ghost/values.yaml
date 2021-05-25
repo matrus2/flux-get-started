@@ -165,7 +165,7 @@ mariadb:
 service:
   type: LoadBalancer
   # HTTP Port
-  port: 81
+  port: 82
   ## loadBalancerIP:
   ##
   ## nodePorts:

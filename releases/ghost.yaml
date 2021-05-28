@@ -11,6 +11,7 @@ spec:
   rollback:
     enable: true
     disableHooks: true
+    retry: false
   releaseName: ghost
   chart:
     git: ssh://git@github.com/matrus2/flux-get-started

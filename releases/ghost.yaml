@@ -8,6 +8,9 @@ metadata:
     fluxcd.io/automated: "false"
     fluxcd.io/tag.chart-image: glob:3.1.1-debian-9-*
 spec:
+  rollback:
+    enable: true
+    disableHooks: true
   releaseName: ghost
   chart:
     git: ssh://git@github.com/matrus2/flux-get-started
